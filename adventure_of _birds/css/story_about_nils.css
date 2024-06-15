@@ -1,0 +1,28 @@
+.main_slider{
+    background-color: #FAD689;
+    text-align: center;
+}
+.main_slider header{
+    width: 90%;
+    margin: auto;
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.main_slider .video{
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.content p{
+    line-height: 50px;
+    width: 95%;
+    font-size: 27px;
+    text-indent: 2em;
+    font-family: 'EB Garamond', serif;
+}
+#nils_pic{
+    float: right;
+    width: 280px;
+}

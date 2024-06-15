@@ -1,0 +1,69 @@
+.main_slider{
+    /* background-color: rgb(220, 159, 180); */
+    background-image: url("../images/birds_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 684px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.index_img1,.index_img2{
+    width: 200px;
+    height: 200px;
+}
+.index_img1{
+    position: absolute;
+    left: 18%;
+    bottom: 3%;
+}
+.index_img2{
+    position: absolute;
+    bottom: 3%;
+    right: 50%;
+}
+.tips{
+    position: absolute;
+    top: 25%;
+    font-size: 32px;
+    display: none;
+}
+.dialog p{
+    font-size: 32px;
+    display: inline-block;
+    width: 300px;
+}
+.main_slider p:first-child{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 400px;
+    display: none;
+}
+.dialog p:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    display:none;
+}
+.dialog p:nth-child(3){
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 400px;
+    display: none;
+}
+.dialog p:nth-child(4){
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    display:none;
+}
+.cursor_hand{
+    position: absolute;
+    left: 41%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+

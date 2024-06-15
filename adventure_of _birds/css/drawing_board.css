@@ -1,0 +1,68 @@
+.main_slider aside{
+    width: 26%;
+    position: absolute;
+    height: 614px;
+    overflow-x: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.main_slider aside img{
+    width: 80%;
+    border: 3px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+.main_slider main{
+    width: 74%;
+    position: absolute;
+    height: 614px;
+    right: 0;
+    background-color: #91B493;
+    background-image: url("../images/drawing_board.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_slider main .sentence{
+    width: 150px;
+    font-size: 30px;
+    color: purple;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+.main_slider main #colour_choose{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    width: 40px;
+    text-align: center;
+    padding: 3px;
+    background-color: gainsboro;
+}
+.main_slider main #canvas{
+    background-color: beige;
+    position: absolute;
+    top: 9%;
+    left: 27%;
+    width: 500px;
+    height: 500px;  
+}
+.main_slider main .colour_box{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    /* cursor: pointer; */
+}
+.main_slider main #clear_canvas{
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    width: 40px;
+    text-align: center;
+    padding: 3px;
+    background-color: gainsboro;
+    cursor: pointer;
+}

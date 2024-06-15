@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <title>Quiz | Adventure of Birds</title>
+</head>
+<body>
+    <div class="whole">
+        <div class="nav">
+            <a href="index.html">
+                <img src="images/img_theme.png" alt="Adventure_of_Birds" id="theme_pic">
+            </a>
+            <form action="" id="top_search_site" onsubmit="return false;">
+                <input type="text" placeholder="Search site,like history" id="search_bar">
+                <button id="search_bar_btn">search</button>
+            </form>
+            <nav class="index_top_nav">
+                <ul>
+                    <li><a href="study_page.html">Start your learning</a></li>
+                    <li><a href="story_about_nils.html">Story about Nils</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="drawing_board.html">Drawing Board</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main_slider">
+           <div class="shadow_show_grade">
+                <div class="show_grade">
+                    <h2>Your Grade is :<span>100</span></h2>
+                    <p>Do you want to try again?</p><br>
+                    <span class="Yes">Yes</span>
+                    <span class="No">No</span>
+                </div>
+            </div>
+            <aside class="quiz_aside">
+                <ul>
+                    <li id="quiz_1_button">Quiz1</li>
+                    <li id="quiz_2_button">Quiz2</li>
+                </ul>
+            </aside>
+            <main class="quiz_main">
+                <form action="" id="quiz_1" class="show" onsubmit="return false">
+                    <h3>Quiz 1</h3>
+                    <div class="question_1">
+                        <label for="Question1">1.Why do birds migrate? </label>
+                        <br>
+                        <input type="radio" name="Question1" id="" value="A">A. Food & Health
+                        <br>
+                        <input type="radio" name="Question1" id="" value="B">B. Food & Nesting locations
+                        <br>
+                        <input type="radio" name="Question1" id="" value="C">C. Nesting locations
+                        <br>
+                        <input type="radio" name="Question1" id="" value="D">D. For fun
+                        <br>
+                        <input type="hidden" value="B">
+                        <label class="right_answer">The right answer is :B</label>
+                    </div>
+                    <div class="question_2">
+                        <label for="Question2">2.How many types of migration are there? </label>
+                        <br>
+                        <input type="radio" name="Question2" id="" value="A">A. 5
+                        <br>
+                        <input type="radio" name="Question2" id="" value="B">B. 6
+                        <br>
+                        <input type="radio" name="Question2" id="" value="C">C. 3
+                        <br>
+                        <input type="radio" name="Question2" id="" value="D">D. 4
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_3">
+                        <label for="Question3">3. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question3" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question3" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question3" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question3" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_4">
+                        <label for="Question4">4. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question4" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question4" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question4" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question4" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_5">
+                        <label for="Question5">5. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question5" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question5" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question5" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question5" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <button class="submit_btn">Submit</button>
+                </form>
+                <form action="" id="quiz_2" class="hide">
+                    <h3>Quiz 2</h3>
+                    <div class="question_2">
+                        <label for="Question2">1.How many types of migration are there? </label>
+                        <br>
+                        <input type="radio" name="Question2" id="" value="A">A. 5
+                        <br>
+                        <input type="radio" name="Question2" id="" value="B">B. 6
+                        <br>
+                        <input type="radio" name="Question2" id="" value="C">C. 3
+                        <br>
+                        <input type="radio" name="Question2" id="" value="D">D. 4
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_3">
+                        <label for="Question3">2. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question3" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question3" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question3" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question3" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_1">
+                        <label for="Question1">3.Why do birds migrate? </label>
+                        <br>
+                        <input type="radio" name="Question1" id="" value="A">A. Food & Health
+                        <br>
+                        <input type="radio" name="Question1" id="" value="B">B. Food & Nesting locations
+                        <br>
+                        <input type="radio" name="Question1" id="" value="C">C. Nesting locations
+                        <br>
+                        <input type="radio" name="Question1" id="" value="D">D. For fun
+                        <br>
+                        <input type="hidden" value="B">
+                        <label class="right_answer">The right answer is :B</label>
+                    </div>
+                    <div class="question_4">
+                        <label for="Question4">4. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question4" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question4" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question4" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question4" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <div class="question_5">
+                        <label for="Question5">5. Which reason can not trigger migrate? </label>
+                        <br>
+                        <input type="radio" name="Question5" id="" value="A">A. Lower temperatures
+                        <br>
+                        <input type="radio" name="Question5" id="" value="B">B. Changes in food supplies
+                        <br>
+                        <input type="radio" name="Question5" id="" value="C">C. Genetic predispostion
+                        <br>
+                        <input type="radio" name="Question5" id="" value="D">D. Human activity
+                        <br>
+                        <input type="hidden" value="D">
+                        <label class="right_answer">The right answer is :D</label>
+                    </div>
+                    <button class="submit_btn">Submit</button>
+
+                </form>
+                    
+            </main>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js" ></script>
+    <script type="text/javascript" src="js/common.js" ></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/drawing_board.css">
+    <link rel="stylesheet" href="css/icono.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+    <title>Homepage | Adventure of Birds</title>
+</head>
+<body>
+    <div class="whole">
+        <div class="nav">
+            <a href="index.html">
+                <img src="images/img_theme.png" alt="Adventure_of_Birds" id="theme_pic">
+            </a>
+            <form action="" id="top_search_site" onsubmit="return false;">
+                <input type="text" placeholder="Search site,like history" id="search_bar">
+                <button id="search_bar_btn">search</button>
+            </form>
+            <nav class="index_top_nav">
+                <ul>
+                    <li><a href="study_page.html">Plan your learning</a></li>
+                    <li><a href="story_about_nils.html">Story about Nils</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="drawing_board.html">Drawing Board</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main_slider">
+            <aside>
+                <img src="images/drawing_board_pic.png">
+                <img src="images/drawing_board_pic2.png">
+                <img src="images/drawing_board_pic3.png">
+                <img src="images/drawing_board_pic4.png">
+            </aside>
+            <main>
+                <div class="sentence">Choose a picture from left side and let's drawing it!</div>
+                <canvas id="canvas" width="500" height="500"></canvas>
+                <div id="colour_choose"></div>
+                <div id="clear_canvas">Clear</div>
+            </main>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js" ></script>
+    <script type="text/javascript" src="js/common.js" ></script>
+    <script type="text/javascript" src="js/drawing_board.js" ></script>
+
+</body>
+</html>

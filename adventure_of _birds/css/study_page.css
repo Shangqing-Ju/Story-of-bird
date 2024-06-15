@@ -1,0 +1,33 @@
+.main_slider{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    background-image: url("../images/study_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.main_slider p{
+    display: inline-block;
+    width: 80%;
+    font-size: 27px;
+    line-height: 50px;
+}
+.main_slider p:first-of-type{
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.in_page_nav ul li:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+#nils_pic2{
+    position: absolute;   
+    width: 290px;
+    top: 100px;
+}
+
